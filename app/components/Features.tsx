@@ -11,13 +11,13 @@ const features = [
   },
   {
     icon: ShieldIcon,
-    title: "Built in Georgia",
+    title: "Built to last",
     body: "Built in a controlled factory environment to meet and exceed the federal HUD code, with Energy Star certified options.",
   },
   {
     icon: TreeIcon,
     title: "Delivered and set up",
-    body: "Built in Waycross, sold in Waycross. Thousands saved in freight, with local delivery and outstanding service.",
+    body: "Locally owned and operated, with special pricing, premium upgrades and a team that stands behind every home.",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function Features() {
             A home you can grow into
           </Reveal>
           <Reveal as="p" delay={120} className="mt-4 text-lg text-muted">
-            Quality homes, exceptional value, locally delivered.
+            Best prices. Guaranteed.
           </Reveal>
         </div>
 

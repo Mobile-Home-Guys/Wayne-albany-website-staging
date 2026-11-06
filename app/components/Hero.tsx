@@ -38,7 +38,7 @@ export default function Hero() {
       <div ref={bg} className="absolute inset-0 origin-top will-change-transform">
         <Image
           src="/hero.jpg"
-          alt="Living room of a Live Oak model home at Wayne Frier Home Center of Waycross"
+          alt="Kitchen of a Live Oak model home at Wayne Frier Home Center of Albany"
           fill
           preload
           sizes="100vw"
@@ -53,10 +53,10 @@ export default function Hero() {
         className="relative z-10 flex h-full flex-col items-center justify-end px-4 pb-[14vh] text-center will-change-transform"
       >
         <h1 className="display hero-in text-[clamp(3.2rem,9vw,6.5rem)] text-ink">
-          Wayne Frier of Waycross
+          Wayne Frier Homes Albany
         </h1>
         <p className="hero-in mt-4 max-w-md text-lg text-ink/85 [animation-delay:150ms]">
-          Your trusted mobile home dealer in Waycross, GA. Quality homes, exceptional value, locally delivered.
+          Best prices. Guaranteed. Your trusted mobile home dealer in Albany, GA, with unbeatable selection and quality construction.
         </p>
         <div className="hero-in mt-7 flex flex-col gap-3 [animation-delay:300ms] sm:flex-row">
           <Link

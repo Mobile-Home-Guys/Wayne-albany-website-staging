@@ -8,7 +8,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteUrl("/homes") },
     { url: absoluteUrl("/about") },
     { url: absoluteUrl("/specials") },
-    { url: absoluteUrl("/upgrades") },
+    { url: absoluteUrl("/quality-construction") },
+    { url: absoluteUrl("/used-repo") },
+    { url: absoluteUrl("/hiring") },
     { url: absoluteUrl("/contact") },
     ...homes.map((h) => ({ url: absoluteUrl(`/homes/${h.slug}`), images: [absoluteUrl(h.images[0])] })),
   ];

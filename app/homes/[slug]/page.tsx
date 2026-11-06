@@ -62,17 +62,12 @@ export default async function HomePage({ params }: Props) {
               <Gallery images={home.images} alt={homeAlt(home)} />
               <div>
                 <p className="text-sm font-medium tracking-wide text-clay uppercase">
-                  {[home.section, ...home.series].filter(Boolean).join(" · ") || "On our lot"}
+                  {[home.section, ...home.series].filter(Boolean).join(" · ") || "Manufactured home"}
                 </p>
                 <h1 className="display mt-3 text-[clamp(3rem,6vw,4.8rem)]">The {home.name}</h1>
-                {home.onLot && (
-                  <p className="mt-4 mr-2 inline-block rounded-full border border-clay/30 bg-blush px-4 py-1.5 text-sm font-semibold text-clay">
-                    Available on Lot
-                  </p>
-                )}
-                {home.markdown && (
+                {home.price && (
                   <p className="mt-4 inline-block rounded-full bg-clay px-4 py-1.5 text-sm font-semibold text-white">
-                    Marked down {usd(home.markdown)}
+                    Clearance: now {usd(home.price)}
                   </p>
                 )}
                 <dl className="mt-8 grid grid-cols-3 gap-3">

@@ -1,22 +1,21 @@
 /**
- * Home models on the lot, scraped from waynefrierwaycross.com (size and series pages).
- * Photos are self-hosted under /public/homes/<slug>/. `section` is only set for homes the
- * dealership lists on its Singlewides, Doublewides or Triplewides pages.
+ * Home models offered by Wayne Frier Home Center of Albany, transferred from the New Homes listings on
+ * waynefrierhomesalbany.com. Photos are self-hosted under /public/homes/<slug>/.
  */
 import raw from "./homes.json";
-import { lotSlugs } from "./lot";
 
 export type Section = "Single wide" | "Double wide" | "Triple wide";
 
+/** Series and finish categories, as the dealership groups its New Homes listings. */
 export const SERIES = [
   "Plantation Series",
-  "XT Series",
-  "Extreme Series",
   "Signature Oak Series",
-  "Classic Oaks",
+  "Classic Oak Series",
   "Suwannee Valley",
   "Runner SS",
   "Runner Series",
+  "Deluxe Drywall",
+  "Painted Sheetrock",
 ] as const;
 
 export type Series = (typeof SERIES)[number];
@@ -33,22 +32,20 @@ export type Home = {
   images: string[];
   /** Matterport 3D tour id, when the dealership has one for this model. */
   tour: string | null;
-  /** Clearance markdown in dollars, from the dealership's Specials page. */
-  markdown?: number;
-  /** True when this model is on the lot to tour right now (see lot.ts). */
-  onLot: boolean;
+  /** Clearance price in dollars, from the dealership's Specials page. */
+  price?: number;
 };
 
-const MARKDOWNS: Record<string, number> = { tundra: 8000, horizon: 6500 };
+/** Current "Clearance Home of the Month" prices from the Specials page. */
+const CLEARANCE_PRICES: Record<string, number> = { gunner: 119900 };
 
-export const homes: Home[] = (raw as Omit<Home, "markdown" | "onLot">[]).map((h) => ({
+export const homes: Home[] = (raw as Omit<Home, "price">[]).map((h) => ({
   ...h,
-  markdown: MARKDOWNS[h.slug],
-  onLot: lotSlugs.has(h.slug),
+  price: CLEARANCE_PRICES[h.slug],
 }));
 
-/** Homes marked down on the Specials page. */
-export const clearance = homes.filter((h) => h.markdown);
+/** Homes featured on the Specials page. */
+export const clearance = homes.filter((h) => h.price);
 
 export const getHome = (slug: string) => homes.find((h) => h.slug === slug);
 

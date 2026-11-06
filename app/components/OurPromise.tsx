@@ -15,7 +15,7 @@ export default function OurPromise() {
         </span>
         <span className="text-left">
           <span className="block font-medium text-ink">The Wayne Frier team</span>
-          <span className="block text-sm text-muted">Waycross, Georgia</span>
+          <span className="block text-sm text-muted">Albany, Georgia</span>
         </span>
       </Reveal>
     </section>

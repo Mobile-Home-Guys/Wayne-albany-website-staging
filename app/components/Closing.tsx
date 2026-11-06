@@ -6,7 +6,7 @@ import { ArrowRight, Check, Logo, PhoneIcon } from "./Icons";
 import QuoteForm from "./QuoteForm";
 
 export function CallToAction() {
-  const trust = ["Exclusive Live Oak Homes retailer", "Energy Star certified homes", "Local delivery & setup"];
+  const trust = ["Best prices. Guaranteed.", "Live Oak Homes, built in Georgia", "Locally owned & operated"];
   return (
     <section id="contact" className="relative scroll-mt-24 overflow-hidden px-4 py-24 md:py-32">
       <Image
@@ -73,7 +73,9 @@ export function Footer() {
   const links = [
     { href: "/homes", label: "Homes" },
     { href: "/specials", label: "Specials" },
-    { href: "/upgrades", label: "Upgrades" },
+    { href: "/quality-construction", label: "Quality & Construction" },
+    { href: "/used-repo", label: "Used & Repo" },
+    { href: "/hiring", label: "We\u2019re Hiring" },
     { href: "/about", label: "About Us" },
   ];
   const { street, city, region, postalCode } = site.address;
@@ -81,7 +83,7 @@ export function Footer() {
   return (
     <footer className="border-t border-line bg-band px-6 py-8">
       <div className="mx-auto flex max-w-[1200px] flex-col items-center justify-between gap-5 md:flex-row">
-        <Logo className="h-12" />
+        <Logo className="h-10" />
         <ul className="flex flex-wrap justify-center gap-7 text-sm text-muted">
           {links.map((l) => (
             <li key={l.label}>
@@ -100,6 +102,11 @@ export function Footer() {
               Facebook
             </a>
           </li>
+          <li>
+            <a href={site.instagram} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">
+              Instagram
+            </a>
+          </li>
         </ul>
         <p className="text-sm text-muted">
           © {new Date().getFullYear()} {site.fullName}
@@ -111,6 +118,9 @@ export function Footer() {
         </a>
         <a href={site.phoneHref} className="transition-colors hover:text-ink">
           {site.phone}
+        </a>
+        <a href={`mailto:${site.email}`} className="transition-colors hover:text-ink">
+          {site.email}
         </a>
         <span>{hours}</span>
       </address>

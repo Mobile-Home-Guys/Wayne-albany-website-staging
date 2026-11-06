@@ -6,11 +6,17 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     // Listing photos rarely change, so keep optimized copies for 31 days instead of 4 hours
     minimumCacheTTL: 2678400,
-    // Listing photos are self-hosted in /public; only Google reviewer avatars are remote
-    remotePatterns: [
-      // Google reviewer profile photos
-      new URL("https://lh3.googleusercontent.com/**"),
-    ],
+  },
+  // The previous WordPress site's URLs, so existing links and search rankings carry over
+  async redirects() {
+    return [
+      { source: "/new-homes", destination: "/homes", permanent: true },
+      { source: "/project/:slug", destination: "/homes/:slug", permanent: true },
+      { source: "/contact-us", destination: "/contact", permanent: true },
+      { source: "/were-hiring", destination: "/hiring", permanent: true },
+      { source: "/phenomenal-five-survey", destination: "/homes", permanent: true },
+      { source: "/upgrades", destination: "/quality-construction", permanent: true },
+    ];
   },
   async headers() {
     return [
