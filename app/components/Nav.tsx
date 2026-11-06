@@ -8,8 +8,8 @@ import { Logo } from "./Icons";
 const links = [
   { href: "/homes", label: "Homes" },
   { href: "/specials", label: "Specials" },
-  { href: "/upgrades", label: "Upgrades" },
-  { href: "/#reviews", label: "Reviews" },
+  { href: "/quality-construction", label: "Quality" },
+  { href: "/used-repo", label: "Used & Repo" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -43,16 +43,16 @@ export default function Nav() {
       <nav
         className={`mx-auto flex items-center justify-between border transition-all ${ease} ${
           compact
-            ? "max-w-[820px] rounded-2xl border-line bg-cream/90 py-2 pr-2 pl-3 shadow-[0_6px_30px_-12px_rgba(20,20,20,0.25)] backdrop-blur-xl"
+            ? "max-w-[1040px] rounded-2xl border-line bg-cream/90 py-2 pr-2 pl-3 shadow-[0_6px_30px_-12px_rgba(20,20,20,0.25)] backdrop-blur-xl"
             : "max-w-[1500px] rounded-2xl border-white/70 bg-cream/75 py-2.5 pr-2.5 pl-4 shadow-[0_8px_30px_-16px_rgba(20,20,20,0.3)] backdrop-blur-md sm:py-3 sm:pr-4 sm:pl-5"
         }`}
       >
         <Link href="/" aria-label={`${site.fullName} home`}>
-          <Logo className={`transition-all ${ease} ${compact ? "h-9" : "h-9 sm:h-11"}`} />
+          <Logo className={`transition-all ${ease} ${compact ? "h-7 sm:h-8" : "h-7 sm:h-9"}`} />
         </Link>
         <ul
-          className={`hidden items-center text-[15px] font-medium text-ink/85 transition-all md:flex ${ease} ${
-            compact ? "gap-8" : "gap-12"
+          className={`hidden items-center text-[15px] font-medium whitespace-nowrap text-ink/85 transition-all md:flex ${ease} ${
+            compact ? "gap-5 lg:gap-8" : "gap-5 lg:gap-10"
           }`}
         >
           {links.map((l) => (
@@ -66,7 +66,7 @@ export default function Nav() {
         <div className="flex items-center gap-2">
           <a
             href={site.phoneHref}
-            className="rounded-full bg-clay px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-clay-dark"
+            className="rounded-full bg-clay px-4 py-2.5 text-sm font-medium whitespace-nowrap text-white transition-colors hover:bg-clay-dark"
           >
             <span className="sm:hidden">Call us</span>
             <span className="hidden sm:inline">Call {site.phone}</span>

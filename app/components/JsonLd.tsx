@@ -21,13 +21,14 @@ export const businessSchema = {
       "@type": "MobileHomeDealer",
       "@id": businessId,
       name: site.fullName,
-      alternateName: "Wayne Frier of Waycross",
+      alternateName: site.name,
       url: absoluteUrl("/"),
-      telephone: "+1-912-283-6062",
+      telephone: "+1-229-446-0771",
+      email: site.email,
       image: absoluteUrl("/og-image.jpg"),
-      logo: absoluteUrl("/WFHC-WAYCROSS-logo.png"),
+      logo: absoluteUrl("/wayne-frier-albany-logo.png"),
       description:
-        "Mobile and manufactured home dealer in Waycross, Georgia and the exclusive Live Oak Homes retailer in Waycross, selling singlewide, doublewide and triplewide homes with delivery and setup.",
+        "Locally owned mobile and manufactured home dealer in Albany, Georgia, selling singlewide, doublewide and triplewide Live Oak Homes at the best prices.",
       priceRange: "$$",
       address: {
         "@type": "PostalAddress",
@@ -37,7 +38,6 @@ export const businessSchema = {
         postalCode: site.address.postalCode,
         addressCountry: "US",
       },
-      geo: { "@type": "GeoCoordinates", latitude: site.geo.lat, longitude: site.geo.lng },
       hasMap: site.mapUrl,
       openingHoursSpecification: site.hours.map((h) => ({
         "@type": "OpeningHoursSpecification",
@@ -46,12 +46,10 @@ export const businessSchema = {
         closes: h.closes,
       })),
       areaServed: [
-        { "@type": "City", name: "Waycross" },
+        { "@type": "City", name: "Albany" },
         { "@type": "AdministrativeArea", name: "Georgia" },
-        { "@type": "AdministrativeArea", name: "Florida" },
-        { "@type": "AdministrativeArea", name: "South Carolina" },
       ],
-      sameAs: [site.facebook, site.instagram, site.youtube, site.twitter],
+      sameAs: [site.facebook, site.instagram],
     },
     {
       "@type": "WebSite",

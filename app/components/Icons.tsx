@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../public/WFHC-WAYCROSS-logo.png";
+import logo from "../../public/wayne-frier-albany-logo.png";
 
 type P = { className?: string };
 
@@ -84,20 +84,11 @@ export const ChevronDown = ({ className }: P) => (
   </svg>
 );
 
-/**
- * Brand logo; size it with a height class, width follows the artwork.
- * The source PNG is 1280×720 with the artwork occupying (106, 44) → (1197, 510),
- * so we frame just that region instead of showing the transparent canvas around it.
- */
+/** Brand logo (748×122 artwork); size it with a height class, width follows the artwork. */
 export function Logo({ className = "h-10" }: P) {
   return (
-    <span className={`relative inline-block aspect-[1091/466] shrink-0 overflow-hidden align-middle ${className}`}>
-      <Image
-        src={logo}
-        alt="Wayne Frier Home Center of Waycross"
-        sizes="320px"
-        className="absolute top-[-9.44%] left-[-9.72%] h-auto w-[117.32%] max-w-none"
-      />
+    <span className={`relative inline-block aspect-[748/122] shrink-0 align-middle ${className}`}>
+      <Image src={logo} alt="Wayne Frier Home Center of Albany" sizes="320px" className="h-full w-full object-contain" />
     </span>
   );
 }

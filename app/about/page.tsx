@@ -5,21 +5,20 @@ import { Check, HouseIcon, KeyIcon, ShieldIcon, TreeIcon } from "../components/I
 import Nav from "../components/Nav";
 import OurPromise from "../components/OurPromise";
 import Reveal from "../components/Reveal";
-import Reviews from "../components/Reviews";
 import { pageMetadata } from "../lib/seo";
 import { site } from "../lib/site";
 
 export const metadata = pageMetadata({
-  title: `About ${site.fullName}: Mobile Home Dealer in Waycross, GA`,
+  title: `About ${site.fullName}: Mobile Home Dealer in Albany, GA`,
   description:
-    "Wayne Frier Home Center of Waycross is the exclusive Live Oak Homes retailer in Waycross, GA, one of the largest inventories of manufactured homes in the Southeast, and homes built right here in the Waycross area.",
+    "Wayne Frier Home Center of Albany is a locally owned and operated manufactured home dealer in Albany, GA, selling Live Oak Homes with best prices guaranteed.",
   path: "/about",
 });
 
 const stats = [
-  { value: "1972", label: "Wayne Frier Home Center brand established in Florida" },
-  { value: "1997", label: "Year our Waycross location opened" },
-  { value: "30+", label: "Years our leadership has been with the Wayne Frier Group" },
+  { value: "100+", label: "Unique Live Oak floor plans to choose from" },
+  { value: "6", label: "Home series, from budget-friendly to site-built looks" },
+  { value: "3", label: "Home sizes: singlewide, doublewide and triplewide" },
 ];
 
 const services = [
@@ -35,8 +34,8 @@ const services = [
   },
   {
     icon: TreeIcon,
-    title: "Delivery & setup",
-    body: "Built in Waycross, sold in Waycross, with thousands saved in freight. We ship to Florida, Georgia and South Carolina.",
+    title: "Pricing & upgrades",
+    body: "Special pricing and premium upgrades, with a team that helps you from your first question to the day your home is set.",
   },
   {
     icon: ShieldIcon,
@@ -46,9 +45,9 @@ const services = [
 ];
 
 const covered = [
-  "Exclusive Live Oak Homes retailer in Waycross",
+  "Best prices. Guaranteed.",
   "Energy Star certified homes",
-  "Homes built right here in the Waycross area",
+  "Locally owned and operated",
   "Honest guidance, start to finish",
 ];
 
@@ -60,9 +59,9 @@ export default function AboutPage() {
       <main>
         <section id="top" className="bg-band px-4 pt-40 pb-16 text-center sm:px-6">
           <p className="text-sm font-medium tracking-wide text-clay uppercase">About us</p>
-          <h1 className="display hero-in mt-4 text-[clamp(3rem,7vw,5.5rem)]">Homes built right here in Waycross</h1>
+          <h1 className="display hero-in mt-4 text-[clamp(3rem,7vw,5.5rem)]">Best prices. Guaranteed.</h1>
           <p className="hero-in mx-auto mt-5 max-w-xl text-lg text-muted [animation-delay:150ms]">
-            Unmatched selection, value and price. Our goal is 100% customer satisfaction.
+            Unbeatable selection, reduced prices, premium upgrades and quality construction, from a locally owned dealership in Albany, Georgia.
           </p>
         </section>
 
@@ -70,8 +69,8 @@ export default function AboutPage() {
           <div className="mx-auto grid max-w-[1200px] items-center gap-14 lg:grid-cols-2">
             <Reveal variant="reveal-window" className="relative aspect-[4/3] overflow-hidden rounded-[28px]">
               <Image
-                src="/homes/arlington/0.jpg"
-                alt="Inside a Live Oak home at Wayne Frier Home Center of Waycross"
+                src="/homes/buckhead/0.jpg"
+                alt="Inside a Live Oak home at Wayne Frier Home Center of Albany"
                 fill
                 sizes="(min-width: 1024px) 600px, 100vw"
                 className="object-cover"
@@ -83,21 +82,18 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={100} className="mt-6 space-y-5 text-lg leading-relaxed text-muted">
                 <p>
-                  The Wayne Frier Home Center brand was established in Florida in 1972, and our Waycross location
-                  opened in 1997. Our leadership brings more than 30 years of affiliation with the Wayne Frier Group
-                  and has served customers at this location since 2002.
+                  Wayne Frier Homes of Albany is locally owned and operated and is one of the fastest growing
+                  manufactured housing dealers in the Southeast. From our lot on Sylvester Road, we help families across
+                  southwest Georgia find a home that fits their needs, lifestyle and budget.
                 </p>
                 <p>
-                  As an exclusive Live Oak Homes dealership, {site.fullName} offers one of the largest inventories of
-                  manufactured homes in the Southeast. Our homes are built right here in the Waycross area, helping
-                  local customers save thousands of dollars in freight costs. Built in Waycross and sold in
-                  Waycross, that local connection delivers real value.
+                  We sell Live Oak Homes, an industry leader in producing quality homes at affordable prices. Live Oak
+                  builds singlewides, doublewides and triplewides, with over 100 unique floor plans within six
+                  different home series, so there is a size and style for nearly every budget.
                 </p>
                 <p>
-                  Having the manufacturing facilities nearby also benefits our customers when it comes to service and
-                  support. Our experienced sales team, including members with more than 18 years in the industry, is
-                  here to answer questions, explain options, and help you find the right home for your needs and
-                  budget.
+                  Our team is here to answer questions, explain your options, and make the home-buying experience clear
+                  and comfortable. Call {site.phone} or stop by and see for yourself.
                 </p>
               </Reveal>
             </div>
@@ -132,7 +128,7 @@ export default function AboutPage() {
             </div>
 
             <Reveal delay={200} className="mt-14 text-center">
-              <p className="display text-[clamp(1.8rem,3vw,2.4rem)]">Why Wayne Frier of Waycross</p>
+              <p className="display text-[clamp(1.8rem,3vw,2.4rem)]">Why Wayne Frier Homes Albany</p>
               <ul className="mt-6 flex flex-wrap justify-center gap-3">
                 {covered.map((c) => (
                   <li
@@ -149,7 +145,6 @@ export default function AboutPage() {
         </section>
 
         <OurPromise />
-        <Reviews />
         <CallToAction />
       </main>
       <Footer />

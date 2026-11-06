@@ -21,9 +21,9 @@ const googleVerification = process.env.GOOGLE_SITE_VERIFICATION;
 /** Site-wide defaults; each page adds its own title, description and canonical via `pageMetadata`. */
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: `Mobile Homes for Sale in Waycross, GA | ${site.fullName}`,
+  title: `Mobile Homes for Sale in Albany, GA | ${site.fullName}`,
   description:
-    "Singlewide, doublewide and triplewide Live Oak Homes built right here in Georgia. Browse floor plans and 3D tours at Wayne Frier Home Center of Waycross, the exclusive Live Oak Homes retailer in Waycross, GA.",
+    "Singlewide, doublewide and triplewide Live Oak Homes built right here in Georgia. Browse floor plans and 3D tours at Wayne Frier Home Center of Albany. Best prices. Guaranteed.",
   applicationName: site.fullName,
   openGraph: { type: "website", siteName: site.fullName, locale: "en_US", images: [ogImage] },
   twitter: { card: "summary_large_image", images: [ogImage] },

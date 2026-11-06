@@ -1,17 +1,17 @@
 import { pageMetadata } from "./lib/seo";
 import { site } from "./lib/site";
 import { CallToAction, Footer } from "./components/Closing";
-import OnTheLot from "./components/OnTheLot";
+import FeaturedHomes from "./components/FeaturedHomes";
 import Features from "./components/Features";
 import Specials from "./components/Specials";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
-import Reviews from "./components/Reviews";
+import Series from "./components/Series";
 
 export const metadata = pageMetadata({
-  title: `Mobile Homes for Sale in Waycross, GA | ${site.fullName}`,
+  title: `Mobile Homes for Sale in Albany, GA | ${site.fullName}`,
   description:
-    "Shop singlewide, doublewide and triplewide Live Oak Homes in Waycross, GA. Exclusive Live Oak Homes retailer with energy-efficient homes, customization, delivery and setup.",
+    "Shop singlewide, doublewide and triplewide Live Oak Homes in Albany, GA. Best prices guaranteed, with unbeatable selection, reduced prices, premium upgrades and quality construction.",
   path: "/",
 });
 
@@ -22,8 +22,8 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
-        <OnTheLot />
-        <Reviews />
+        <Series />
+        <FeaturedHomes />
         <Specials />
         <CallToAction />
       </main>

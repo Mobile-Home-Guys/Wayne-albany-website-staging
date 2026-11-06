@@ -8,9 +8,11 @@ import { site, usd } from "../lib/site";
 
 export const metadata = pageMetadata({
   title: `Mobile Home Specials & Clearance Homes | ${site.fullName}`,
-  description: `Clearance mobile homes at special pricing at ${site.fullName} in ${site.city}. Call ${site.phone} for current specials.`,
+  description: `Monthly mobile home specials and the clearance home of the month at ${site.fullName} in ${site.city}. Call ${site.phone} for current specials.`,
   path: "/specials",
 });
+
+const perks = ["Unbeatable selection", "Reduced prices", "Premium upgrades", "Quality construction"];
 
 export default function SpecialsPage() {
   return (
@@ -19,22 +21,32 @@ export default function SpecialsPage() {
       <Nav />
       <main>
         <section id="top" className="bg-band px-4 pt-40 pb-16 text-center sm:px-6">
-          <p className="text-sm font-medium tracking-wide text-clay uppercase">Available for a limited time</p>
+          <p className="text-sm font-medium tracking-wide text-clay uppercase">Browse our monthly specials</p>
           <h1 className="display hero-in mt-4 text-[clamp(3rem,7vw,5.5rem)]">Quality homes at special pricing</h1>
           <p className="hero-in mx-auto mt-5 max-w-xl text-lg text-muted [animation-delay:150ms]">
             Enjoy special pricing without compromising on craftsmanship. Call {site.phone} for current specials.
           </p>
         </section>
 
+        <section className="px-4 pt-16 sm:px-6">
+          <ul className="mx-auto grid max-w-[1200px] gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {perks.map((p) => (
+              <li key={p} className="rounded-2xl border border-line bg-card px-6 py-5 text-center font-medium tracking-wide text-ink uppercase">
+                {p}
+              </li>
+            ))}
+          </ul>
+        </section>
+
         <section className="px-4 py-20 sm:px-6">
           <div className="mx-auto max-w-[1200px]">
-            <h2 className="display text-[clamp(2.2rem,4vw,3rem)]">Clearance homes</h2>
+            <h2 className="display text-[clamp(2.2rem,4vw,3rem)]">Clearance home of the month</h2>
             <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {clearance.map((h) => (
                 <div key={h.slug}>
                   <HomeCard home={h} heading="h3" sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw" />
                   <p className="sr-only">
-                    {specs(h)}, marked down {usd(h.markdown!)}
+                    {specs(h)}, now {usd(h.price!)}
                   </p>
                 </div>
               ))}
