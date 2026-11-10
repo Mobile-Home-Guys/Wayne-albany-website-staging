@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteUrl("/used-repo") },
     { url: absoluteUrl("/hiring") },
     { url: absoluteUrl("/contact") },
+    { url: absoluteUrl("/privacy") },
     ...homes.map((h) => ({ url: absoluteUrl(`/homes/${h.slug}`), images: [absoluteUrl(h.images[0])] })),
   ];
 }

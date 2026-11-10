@@ -34,7 +34,8 @@
    "/homes/5k/21.jpg",
    "/homes/5k/22.jpg"
   ],
-  "tour": "pUGfANK3GEc"
+  "tour": "pUGfANK3GEc",
+  "floorPlan": "/homes/5k/floorplan.jpg"
  },
  {
   "slug": "ace",
@@ -64,7 +65,43 @@
    "/homes/ace/14.jpg",
    "/homes/ace/15.jpg"
   ],
-  "tour": "PAtdc74nKHs"
+  "tour": "PAtdc74nKHs",
+  "floorPlan": "/homes/ace/floorplan.jpg"
+ },
+ {
+  "slug": "arlington",
+  "name": "Arlington",
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 2514,
+  "section": "Double wide",
+  "series": [
+   "Plantation Series"
+  ],
+  "images": [
+   "/homes/arlington/0.jpg",
+   "/homes/arlington/1.jpg",
+   "/homes/arlington/2.jpg",
+   "/homes/arlington/3.jpg",
+   "/homes/arlington/4.jpg",
+   "/homes/arlington/5.jpg",
+   "/homes/arlington/6.jpg",
+   "/homes/arlington/7.jpg",
+   "/homes/arlington/8.jpg",
+   "/homes/arlington/9.jpg",
+   "/homes/arlington/10.jpg",
+   "/homes/arlington/11.jpg",
+   "/homes/arlington/12.jpg",
+   "/homes/arlington/13.jpg",
+   "/homes/arlington/14.jpg",
+   "/homes/arlington/15.jpg",
+   "/homes/arlington/16.jpg",
+   "/homes/arlington/17.jpg",
+   "/homes/arlington/18.jpg",
+   "/homes/arlington/19.jpg"
+  ],
+  "tour": "MzLpoWfHmgF",
+  "floorPlan": "/homes/arlington/floorplan.jpg"
  },
  {
   "slug": "augustine",
@@ -90,7 +127,39 @@
    "/homes/augustine/10.jpg",
    "/homes/augustine/11.jpg"
   ],
-  "tour": "u44EJMQyJeQ"
+  "tour": "u44EJMQyJeQ",
+  "floorPlan": "/homes/augustine/floorplan.jpg"
+ },
+ {
+  "slug": "biltmore",
+  "name": "Biltmore",
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2340,
+  "section": "Double wide",
+  "series": [
+   "Plantation Series"
+  ],
+  "images": [
+   "/homes/biltmore/0.jpg",
+   "/homes/biltmore/1.jpg",
+   "/homes/biltmore/2.jpg",
+   "/homes/biltmore/3.jpg",
+   "/homes/biltmore/4.jpg",
+   "/homes/biltmore/5.jpg",
+   "/homes/biltmore/6.jpg",
+   "/homes/biltmore/7.jpg",
+   "/homes/biltmore/8.jpg",
+   "/homes/biltmore/9.jpg",
+   "/homes/biltmore/10.jpg",
+   "/homes/biltmore/11.jpg",
+   "/homes/biltmore/12.jpg",
+   "/homes/biltmore/13.jpg",
+   "/homes/biltmore/14.jpg",
+   "/homes/biltmore/15.jpg"
+  ],
+  "tour": "B4TruEDaiqK",
+  "floorPlan": "/homes/biltmore/floorplan.jpg"
  },
  {
   "slug": "blakely",
@@ -118,7 +187,8 @@
    "/homes/blakely/12.jpg",
    "/homes/blakely/13.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/blakely/floorplan.jpg"
  },
  {
   "slug": "bolt",
@@ -139,7 +209,8 @@
    "/homes/bolt/5.jpg",
    "/homes/bolt/6.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/bolt/floorplan.jpg"
  },
  {
   "slug": "boulder",
@@ -169,7 +240,24 @@
    "/homes/boulder/14.jpg",
    "/homes/boulder/15.jpg"
   ],
-  "tour": "CryLBivoWoa"
+  "tour": "CryLBivoWoa",
+  "floorPlan": "/homes/boulder/floorplan.jpg"
+ },
+ {
+  "slug": "bradford",
+  "name": "Bradford",
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2034,
+  "section": "Double wide",
+  "series": [
+   "Plantation Series"
+  ],
+  "images": [
+   "/homes/bradford/floorplan.jpg"
+  ],
+  "tour": null,
+  "floorPlan": "/homes/bradford/floorplan.jpg"
  },
  {
   "slug": "buckhead",
@@ -195,7 +283,8 @@
    "/homes/buckhead/10.jpg",
    "/homes/buckhead/11.jpg"
   ],
-  "tour": "YKcJzfKJkPt"
+  "tour": "YKcJzfKJkPt",
+  "floorPlan": "/homes/buckhead/floorplan.jpg"
  },
  {
   "slug": "cardinal",
@@ -217,7 +306,8 @@
    "/homes/cardinal/6.jpg",
    "/homes/cardinal/7.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/cardinal/floorplan.jpg"
  },
  {
   "slug": "cedar-river",
@@ -240,7 +330,8 @@
    "/homes/cedar-river/7.jpg",
    "/homes/cedar-river/8.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/cedar-river/floorplan.jpg"
  },
  {
   "slug": "charger",
@@ -267,7 +358,8 @@
    "/homes/charger/11.jpg",
    "/homes/charger/12.jpg"
   ],
-  "tour": "i4svgEpwBfT"
+  "tour": "i4svgEpwBfT",
+  "floorPlan": "/homes/charger/floorplan.jpg"
  },
  {
   "slug": "cobblestone",
@@ -302,7 +394,8 @@
    "/homes/cobblestone/21.jpg",
    "/homes/cobblestone/22.jpg"
   ],
-  "tour": "evHU4g48HKT"
+  "tour": "evHU4g48HKT",
+  "floorPlan": "/homes/cobblestone/floorplan.jpg"
  },
  {
   "slug": "columbia",
@@ -323,7 +416,8 @@
    "/homes/columbia/5.jpg",
    "/homes/columbia/6.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/columbia/floorplan.jpg"
  },
  {
   "slug": "curry",
@@ -346,7 +440,8 @@
    "/homes/curry/7.jpg",
    "/homes/curry/8.jpg"
   ],
-  "tour": "GAoNz16RLdF"
+  "tour": "GAoNz16RLdF",
+  "floorPlan": "/homes/curry/floorplan.jpg"
  },
  {
   "slug": "dakota",
@@ -368,7 +463,8 @@
    "/homes/dakota/6.jpg",
    "/homes/dakota/7.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/dakota/floorplan.jpg"
  },
  {
   "slug": "dart",
@@ -395,7 +491,8 @@
    "/homes/dart/11.jpg",
    "/homes/dart/12.jpg"
   ],
-  "tour": "VERCgAejpqb"
+  "tour": "VERCgAejpqb",
+  "floorPlan": "/homes/dart/floorplan.jpg"
  },
  {
   "slug": "fancy",
@@ -423,7 +520,8 @@
    "/homes/fancy/12.jpg",
    "/homes/fancy/13.jpg"
   ],
-  "tour": "qZ7xyD2EgbZ"
+  "tour": "qZ7xyD2EgbZ",
+  "floorPlan": "/homes/fancy/floorplan.jpg"
  },
  {
   "slug": "fatboy",
@@ -444,7 +542,8 @@
    "/homes/fatboy/5.jpg",
    "/homes/fatboy/6.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/fatboy/floorplan.jpg"
  },
  {
   "slug": "flash",
@@ -465,7 +564,8 @@
    "/homes/flash/5.jpg",
    "/homes/flash/6.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/flash/floorplan.jpg"
  },
  {
   "slug": "gametime",
@@ -493,7 +593,8 @@
    "/homes/gametime/12.jpg",
    "/homes/gametime/13.jpg"
   ],
-  "tour": "zusExFffvKg"
+  "tour": "zusExFffvKg",
+  "floorPlan": "/homes/gametime/floorplan.jpg"
  },
  {
   "slug": "gunner",
@@ -520,7 +621,8 @@
    "/homes/gunner/11.jpg",
    "/homes/gunner/12.jpg"
   ],
-  "tour": "L1zvUv9kGf5"
+  "tour": "L1zvUv9kGf5",
+  "floorPlan": "/homes/gunner/floorplan.jpg"
  },
  {
   "slug": "hamilton",
@@ -544,7 +646,8 @@
    "/homes/hamilton/8.jpg",
    "/homes/hamilton/9.jpg"
   ],
-  "tour": "hsGkTEnDvA4"
+  "tour": "hsGkTEnDvA4",
+  "floorPlan": "/homes/hamilton/floorplan.jpg"
  },
  {
   "slug": "highlander",
@@ -572,7 +675,8 @@
    "/homes/highlander/12.jpg",
    "/homes/highlander/13.jpg"
   ],
-  "tour": "wTB8q5Jd8o6"
+  "tour": "wTB8q5Jd8o6",
+  "floorPlan": null
  },
  {
   "slug": "horizon",
@@ -606,7 +710,8 @@
    "/homes/horizon/18.jpg",
    "/homes/horizon/19.jpg"
   ],
-  "tour": "Scd7Lv3MrxF"
+  "tour": "Scd7Lv3MrxF",
+  "floorPlan": "/homes/horizon/floorplan.jpg"
  },
  {
   "slug": "ironman",
@@ -634,7 +739,8 @@
    "/homes/ironman/12.jpg",
    "/homes/ironman/13.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/ironman/floorplan.jpg"
  },
  {
   "slug": "mahomes",
@@ -659,7 +765,8 @@
    "/homes/mahomes/9.jpg",
    "/homes/mahomes/10.jpg"
   ],
-  "tour": "BELqj1N73Lp"
+  "tour": "BELqj1N73Lp",
+  "floorPlan": "/homes/mahomes/floorplan.jpg"
  },
  {
   "slug": "mayberry",
@@ -690,7 +797,8 @@
    "/homes/mayberry/15.jpg",
    "/homes/mayberry/16.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/mayberry/floorplan.jpg"
  },
  {
   "slug": "messi",
@@ -720,7 +828,8 @@
    "/homes/messi/14.jpg",
    "/homes/messi/15.jpg"
   ],
-  "tour": "vxYLpRUfJaw"
+  "tour": "vxYLpRUfJaw",
+  "floorPlan": "/homes/messi/floorplan.jpg"
  },
  {
   "slug": "mj",
@@ -745,7 +854,8 @@
    "/homes/mj/9.jpg",
    "/homes/mj/10.jpg"
   ],
-  "tour": "jn2UupKWQd1"
+  "tour": "jn2UupKWQd1",
+  "floorPlan": "/homes/mj/floorplan.jpg"
  },
  {
   "slug": "monster-mansion",
@@ -772,7 +882,8 @@
    "/homes/monster-mansion/11.jpg",
    "/homes/monster-mansion/12.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/monster-mansion/floorplan.jpg"
  },
  {
   "slug": "predator",
@@ -797,7 +908,8 @@
    "/homes/predator/9.jpg",
    "/homes/predator/10.jpg"
   ],
-  "tour": "tHsZRK7ctKp"
+  "tour": "tHsZRK7ctKp",
+  "floorPlan": "/homes/predator/floorplan.jpg"
  },
  {
   "slug": "quail-ridge",
@@ -829,7 +941,8 @@
    "/homes/quail-ridge/16.jpg",
    "/homes/quail-ridge/17.jpg"
   ],
-  "tour": "SAYgpRVZF5V"
+  "tour": "SAYgpRVZF5V",
+  "floorPlan": "/homes/quail-ridge/floorplan.jpg"
  },
  {
   "slug": "raptor",
@@ -861,7 +974,8 @@
    "/homes/raptor/16.jpg",
    "/homes/raptor/17.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/raptor/floorplan.jpg"
  },
  {
   "slug": "rock",
@@ -884,7 +998,8 @@
    "/homes/rock/7.jpg",
    "/homes/rock/8.jpg"
   ],
-  "tour": "AzDhx6mGm3R"
+  "tour": "AzDhx6mGm3R",
+  "floorPlan": "/homes/rock/floorplan.jpg"
  },
  {
   "slug": "rocky-mountain",
@@ -914,7 +1029,46 @@
    "/homes/rocky-mountain/14.jpg",
    "/homes/rocky-mountain/15.jpg"
   ],
-  "tour": "Uuf5LVr1uR4"
+  "tour": "Uuf5LVr1uR4",
+  "floorPlan": "/homes/rocky-mountain/floorplan.jpg"
+ },
+ {
+  "slug": "saddlebrook",
+  "name": "Saddlebrook",
+  "beds": 4,
+  "baths": 2.0,
+  "sqft": 2400,
+  "section": "Double wide",
+  "series": [
+   "Plantation Series"
+  ],
+  "images": [
+   "/homes/saddlebrook/0.jpg",
+   "/homes/saddlebrook/1.jpg",
+   "/homes/saddlebrook/2.jpg",
+   "/homes/saddlebrook/3.jpg",
+   "/homes/saddlebrook/4.jpg",
+   "/homes/saddlebrook/5.jpg",
+   "/homes/saddlebrook/6.jpg",
+   "/homes/saddlebrook/7.jpg",
+   "/homes/saddlebrook/8.jpg",
+   "/homes/saddlebrook/9.jpg",
+   "/homes/saddlebrook/10.jpg",
+   "/homes/saddlebrook/11.jpg",
+   "/homes/saddlebrook/12.jpg",
+   "/homes/saddlebrook/13.jpg",
+   "/homes/saddlebrook/14.jpg",
+   "/homes/saddlebrook/15.jpg",
+   "/homes/saddlebrook/16.jpg",
+   "/homes/saddlebrook/17.jpg",
+   "/homes/saddlebrook/18.jpg",
+   "/homes/saddlebrook/19.jpg",
+   "/homes/saddlebrook/20.jpg",
+   "/homes/saddlebrook/21.jpg",
+   "/homes/saddlebrook/22.jpg"
+  ],
+  "tour": null,
+  "floorPlan": "/homes/saddlebrook/floorplan.jpg"
  },
  {
   "slug": "silverado",
@@ -948,7 +1102,8 @@
    "/homes/silverado/18.jpg",
    "/homes/silverado/19.jpg"
   ],
-  "tour": "Xh692hxbAb7"
+  "tour": "Xh692hxbAb7",
+  "floorPlan": "/homes/silverado/floorplan.jpg"
  },
  {
   "slug": "slugger",
@@ -972,7 +1127,8 @@
    "/homes/slugger/8.jpg",
    "/homes/slugger/9.jpg"
   ],
-  "tour": "C8ZntEFDHEU"
+  "tour": "C8ZntEFDHEU",
+  "floorPlan": "/homes/slugger/floorplan.jpg"
  },
  {
   "slug": "sonic",
@@ -991,7 +1147,8 @@
    "/homes/sonic/3.jpg",
    "/homes/sonic/4.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/sonic/floorplan.jpg"
  },
  {
   "slug": "southern-charm",
@@ -1011,7 +1168,8 @@
    "/homes/southern-charm/4.jpg",
    "/homes/southern-charm/5.jpg"
   ],
-  "tour": "GGVZiRQFnuH"
+  "tour": "GGVZiRQFnuH",
+  "floorPlan": "/homes/southern-charm/floorplan.jpg"
  },
  {
   "slug": "spark",
@@ -1036,7 +1194,8 @@
    "/homes/spark/9.jpg",
    "/homes/spark/10.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/spark/floorplan.jpg"
  },
  {
   "slug": "sprinter",
@@ -1060,7 +1219,8 @@
    "/homes/sprinter/8.jpg",
    "/homes/sprinter/9.jpg"
   ],
-  "tour": null
+  "tour": null,
+  "floorPlan": "/homes/sprinter/floorplan.jpg"
  },
  {
   "slug": "telford",
@@ -1085,7 +1245,8 @@
    "/homes/telford/9.jpg",
    "/homes/telford/10.jpg"
   ],
-  "tour": "Xh692hxbAb7"
+  "tour": "Xh692hxbAb7",
+  "floorPlan": "/homes/telford/floorplan.jpg"
  },
  {
   "slug": "tremor",
@@ -1115,7 +1276,8 @@
    "/homes/tremor/14.jpg",
    "/homes/tremor/15.jpg"
   ],
-  "tour": "q5x6BKgRqEv"
+  "tour": "q5x6BKgRqEv",
+  "floorPlan": "/homes/tremor/floorplan.jpg"
  },
  {
   "slug": "tswift",
@@ -1143,7 +1305,8 @@
    "/homes/tswift/12.jpg",
    "/homes/tswift/13.jpg"
   ],
-  "tour": "bAhSXnjmnVj"
+  "tour": "bAhSXnjmnVj",
+  "floorPlan": "/homes/tswift/floorplan.jpg"
  },
  {
   "slug": "tundra",
@@ -1180,7 +1343,8 @@
    "/homes/tundra/21.jpg",
    "/homes/tundra/22.jpg"
   ],
-  "tour": "mtz3upDvZMB"
+  "tour": "mtz3upDvZMB",
+  "floorPlan": "/homes/tundra/floorplan.jpg"
  },
  {
   "slug": "vin-diesel",
@@ -1203,7 +1367,8 @@
    "/homes/vin-diesel/7.jpg",
    "/homes/vin-diesel/8.jpg"
   ],
-  "tour": "jNiYoLvMtMD"
+  "tour": "jNiYoLvMtMD",
+  "floorPlan": "/homes/vin-diesel/floorplan.jpg"
  },
  {
   "slug": "yellow-jacket",
@@ -1227,6 +1392,7 @@
    "/homes/yellow-jacket/8.jpg",
    "/homes/yellow-jacket/9.jpg"
   ],
-  "tour": "K4YqQBV4tX5"
+  "tour": "K4YqQBV4tX5",
+  "floorPlan": "/homes/yellow-jacket/floorplan.jpg"
  }
 ]

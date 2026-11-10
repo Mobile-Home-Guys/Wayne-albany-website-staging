@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
-import { Inter, Instrument_Serif } from "next/font/google";
+import { Barlow, Oswald } from "next/font/google";
 import JsonLd, { businessSchema } from "./components/JsonLd";
 import { ogImage } from "./lib/seo";
 import { site } from "./lib/site";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const barlow = Barlow({
+  variable: "--font-barlow",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const instrumentSerif = Instrument_Serif({
-  variable: "--font-instrument-serif",
+const oswald = Oswald({
+  variable: "--font-oswald",
   subsets: ["latin"],
-  weight: "400",
+  weight: ["400", "500", "600", "700"],
 });
 
 const googleVerification = process.env.GOOGLE_SITE_VERIFICATION;
@@ -44,7 +45,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${instrumentSerif.variable} antialiased`}
+      className={`${barlow.variable} ${oswald.variable} antialiased`}
     >
       <body className="min-h-full">
         <JsonLd data={businessSchema} />

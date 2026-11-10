@@ -32,6 +32,8 @@ export type Home = {
   images: string[];
   /** Matterport 3D tour id, when the dealership has one for this model. */
   tour: string | null;
+  /** Floor plan drawing with elevation, room sizes and model number. */
+  floorPlan: string | null;
   /** Clearance price in dollars, from the dealership's Specials page. */
   price?: number;
 };
@@ -43,6 +45,9 @@ export const homes: Home[] = (raw as Omit<Home, "price">[]).map((h) => ({
   ...h,
   price: CLEARANCE_PRICES[h.slug],
 }));
+
+/** The dealership's "Phenomenal Five" Plantation Series showcase, as grouped on the old site. */
+export const PHENOMENAL_FIVE = ["arlington", "biltmore", "saddlebrook", "bradford"];
 
 /** Homes featured on the Specials page. */
 export const clearance = homes.filter((h) => h.price);

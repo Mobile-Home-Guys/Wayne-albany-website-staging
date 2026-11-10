@@ -8,7 +8,7 @@ export default function Gallery({ images, alt }: { images: string[]; alt: string
   const [active, setActive] = useState(0);
   return (
     <div>
-      <div className="relative aspect-[4/3] overflow-hidden rounded-[28px] border border-line bg-band">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-band">
         <Image
           key={images[active]}
           src={images[active]}
@@ -16,7 +16,7 @@ export default function Gallery({ images, alt }: { images: string[]; alt: string
           fill
           preload={active === 0}
           sizes="(min-width: 1024px) 720px, 100vw"
-          className="object-cover"
+          className={images[active].includes("floorplan") ? "bg-white object-contain p-3" : "object-cover"}
         />
       </div>
       {images.length > 1 && (
@@ -28,7 +28,7 @@ export default function Gallery({ images, alt }: { images: string[]; alt: string
                 onClick={() => setActive(i)}
                 aria-label={`Show photo ${i + 1}`}
                 aria-pressed={i === active}
-                className={`relative block aspect-[4/3] w-full overflow-hidden rounded-xl border-2 transition-colors ${
+                className={`relative block aspect-[4/3] w-full overflow-hidden rounded-md border-2 transition-colors ${
                   i === active ? "border-clay" : "border-transparent hover:border-clay/40"
                 }`}
               >

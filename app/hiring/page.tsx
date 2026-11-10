@@ -18,7 +18,7 @@ export default function HiringPage() {
       <Nav />
       <main>
         <section id="top" className="bg-band px-4 pt-40 pb-16 text-center sm:px-6">
-          <p className="text-sm font-medium tracking-wide text-clay uppercase">Careers</p>
+          <p className="kicker">Careers</p>
           <h1 className="display hero-in mt-4 text-[clamp(3rem,7vw,5.5rem)]">We&rsquo;re hiring</h1>
           <p className="hero-in mx-auto mt-5 max-w-xl text-lg text-muted [animation-delay:150ms]">
             Looking for a rewarding career?
@@ -40,14 +40,14 @@ export default function HiringPage() {
             <div className="flex flex-col gap-3 pt-2 sm:flex-row">
               <a
                 href={site.phoneHref}
-                className="inline-flex items-center justify-center gap-2.5 rounded-full bg-clay px-8 py-4 text-[17px] font-medium text-white transition-colors hover:bg-clay-dark"
+                className="inline-flex items-center justify-center gap-2.5 rounded-md bg-clay px-8 py-4 text-[17px] font-medium text-white transition-colors hover:bg-clay-dark"
               >
                 <PhoneIcon className="h-5 w-5" />
                 Call {site.phone}
               </a>
               <a
                 href={`mailto:${site.email}`}
-                className="inline-flex items-center justify-center rounded-full border border-line bg-card px-8 py-4 text-[17px] font-medium text-ink transition-colors hover:border-clay/40 hover:text-clay"
+                className="inline-flex items-center justify-center rounded-md border-2 border-ink bg-transparent px-8 py-4 text-[17px] font-medium text-ink transition-colors hover:border-clay/40 hover:text-clay"
               >
                 Email us
               </a>

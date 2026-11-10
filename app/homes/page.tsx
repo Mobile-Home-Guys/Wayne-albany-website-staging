@@ -19,7 +19,7 @@ export default function HomesPage() {
       <Nav />
       <main>
         <section id="top" className="bg-band px-4 pt-40 pb-16 text-center sm:px-6">
-          <p className="text-sm font-medium tracking-wide text-clay uppercase">Our homes</p>
+          <p className="kicker">Our homes</p>
           <h1 className="display hero-in mt-4 text-[clamp(3rem,7vw,5.5rem)]">Find your floor plan</h1>
           <p className="hero-in mx-auto mt-5 max-w-xl text-lg text-muted [animation-delay:150ms]">
             {homes.length} floor plans across six home series, from cozy two-bedrooms to five-bedroom family homes. Come

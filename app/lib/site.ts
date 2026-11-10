@@ -7,6 +7,13 @@ export const site = {
   facebook: "https://www.facebook.com/Wayne-Frier-Home-Center-of-Albany-239188109456327/",
   instagram: "https://www.instagram.com/waynefrieralbany/",
   city: "Albany, GA",
+  /** Leon Holden is the dealership's point of contact on the old site's hiring page. */
+  contactName: "Leon Holden",
+  /** Cascade Loans online prequalification, linked from the old site's header. */
+  prequalifyUrl: "https://askcade.cascadeloans.com/dealer/229-446-0771/applyprocess/prequalify",
+  tagline: "Best prices. Guaranteed.",
+  /** Nearby communities the lot serves, for copy and structured data. */
+  serviceArea: ["Albany", "Leesburg", "Sylvester", "Camilla", "Dawson", "Americus", "Moultrie", "Tifton", "Cordele", "Pelham"],
   /** Canonical origin used for metadata, the sitemap and structured data. Set NEXT_PUBLIC_SITE_URL to override (e.g. a staging host). */
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://waynefrierhomesalbany.com").replace(/\/+$/, ""),
   address: {
