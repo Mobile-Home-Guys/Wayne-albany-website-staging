@@ -2,6 +2,7 @@ import { CallToAction, Footer } from "../components/Closing";
 import HomeCard from "../components/HomeCard";
 import JsonLd, { breadcrumbSchema } from "../components/JsonLd";
 import Nav from "../components/Nav";
+import YouTube from "../components/YouTube";
 import { clearance, specs } from "../lib/homes";
 import { pageMetadata } from "../lib/seo";
 import { site, usd } from "../lib/site";
@@ -21,7 +22,7 @@ export default function SpecialsPage() {
       <Nav />
       <main>
         <section id="top" className="bg-band px-4 pt-40 pb-16 text-center sm:px-6">
-          <p className="text-sm font-medium tracking-wide text-clay uppercase">Browse our monthly specials</p>
+          <p className="kicker">Browse our monthly specials</p>
           <h1 className="display hero-in mt-4 text-[clamp(3rem,7vw,5.5rem)]">Quality homes at special pricing</h1>
           <p className="hero-in mx-auto mt-5 max-w-xl text-lg text-muted [animation-delay:150ms]">
             Enjoy special pricing without compromising on craftsmanship. Call {site.phone} for current specials.
@@ -50,6 +51,20 @@ export default function SpecialsPage() {
                   </p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-band px-4 py-20 sm:px-6">
+          <div className="mx-auto grid max-w-[1200px] items-center gap-10 lg:grid-cols-[1.2fr_1fr]">
+            <YouTube id="wYEFp2tG1Jw" title="Why Wait for Black Friday? | Wayne Frier of Albany" />
+            <div>
+              <p className="kicker">On TV in southwest Georgia</p>
+              <h2 className="display mt-3 text-[clamp(2.2rem,4vw,3rem)]">Why wait for Black Friday?</h2>
+              <p className="mt-4 text-lg leading-relaxed text-muted">
+                Specials change every month. Call {site.phone} for current pricing, or stop by {site.address.street} and
+                we&rsquo;ll show you everything that&rsquo;s marked down on the lot.
+              </p>
             </div>
           </div>
         </section>

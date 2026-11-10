@@ -19,7 +19,7 @@ export default function ContactPage() {
       <Nav />
       <main>
         <section id="top" className="bg-band px-4 pt-40 pb-16 text-center sm:px-6">
-          <p className="text-sm font-medium tracking-wide text-clay uppercase">Contact us</p>
+          <p className="kicker">Contact us</p>
           <h1 className="display hero-in mt-4 text-[clamp(3rem,7vw,5.5rem)]">Come see us in Albany</h1>
           <p className="hero-in mx-auto mt-5 max-w-xl text-lg text-muted [animation-delay:150ms]">
             Call, email or stop by. Our team is here to answer your questions and help you find the right home. Sunday
@@ -57,7 +57,7 @@ export default function ContactPage() {
                 </dl>
               </address>
             </div>
-            <div className="aspect-[4/3] overflow-hidden rounded-[28px] border border-line bg-band">
+            <div className="aspect-[4/3] overflow-hidden rounded-lg border border-line bg-band">
               <iframe
                 src={mapSrc}
                 title={`Map to ${site.fullName}`}

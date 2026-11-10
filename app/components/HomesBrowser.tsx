@@ -42,7 +42,7 @@ const sqftFilters: Option<number>[] = [
 ];
 
 const selectClass =
-  "rounded-full border border-line bg-card px-4 py-2 text-sm font-medium text-ink outline-none focus:border-clay";
+  "rounded-md border-2 border-ink bg-transparent px-4 py-2 text-sm font-medium text-ink outline-none focus:border-clay";
 
 /** Pill-shaped dropdown for one filter; index 0 is always "any". */
 function FilterSelect<T>({

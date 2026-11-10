@@ -15,7 +15,7 @@ const buyerTypes = [
 const budgets = ["Under $60k", "$60k – $100k", "$100k – $150k", "$150k – $200k", "$200k+"];
 
 const field =
-  "h-14 w-full rounded-2xl border border-white/35 bg-white/10 px-5 text-[16px] text-white placeholder:text-white/65 outline-none transition-colors focus:border-white/80 focus:bg-white/15";
+  "h-14 w-full rounded-md border border-white/35 bg-white/10 px-5 text-[16px] text-white placeholder:text-white/65 outline-none transition-colors focus:border-white/80 focus:bg-white/15";
 
 /** Lead form for the closing section; posts to /api/quote. */
 export default function QuoteForm() {
@@ -108,11 +108,19 @@ export default function QuoteForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="flex h-14 w-full items-center justify-center gap-2.5 rounded-full bg-clay text-[17px] font-medium text-white shadow-[0_12px_30px_-10px_rgba(192,31,38,0.5)] transition-colors hover:bg-clay-dark disabled:opacity-70"
+        className="flex h-14 w-full items-center justify-center gap-2.5 rounded-md bg-clay font-[family-name:var(--font-oswald)] text-lg tracking-[0.06em] text-white uppercase transition-colors hover:bg-clay-dark disabled:opacity-70"
       >
         <SendIcon className="h-5 w-5" />
         {status === "sending" ? "Sending…" : "Get Your Free Quote"}
       </button>
+      <p className="text-center text-xs leading-relaxed text-white/60">
+        By submitting, you agree to be contacted by call, email or text about your inquiry. Message and data rates may
+        apply; reply STOP to opt out. Consent is not a condition of purchase. See our{" "}
+        <a href="/privacy" className="underline underline-offset-2 hover:text-white">
+          privacy policy
+        </a>
+        .
+      </p>
       {status === "error" && (
         <p role="alert" className="text-center text-sm text-white/85">
           Something went wrong. Please try again or call us at{" "}

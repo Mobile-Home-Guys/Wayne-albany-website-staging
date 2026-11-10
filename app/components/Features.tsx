@@ -1,66 +1,51 @@
+import Image from "next/image";
 import Reveal from "./Reveal";
-import { HouseIcon, ShieldIcon, TreeIcon } from "./Icons";
 
-const brands = ["Live Oak Homes", "Singlewide", "Doublewide", "Triplewide", "Energy Star"];
-
-const features = [
-  {
-    icon: HouseIcon,
-    title: "Homes for every family",
-    body: "Singlewide, doublewide and triplewide floor plans from Live Oak Homes, with customization options to fit your needs.",
-  },
-  {
-    icon: ShieldIcon,
-    title: "Built to last",
-    body: "Built in a controlled factory environment to meet and exceed the federal HUD code, with Energy Star certified options.",
-  },
-  {
-    icon: TreeIcon,
-    title: "Delivered and set up",
-    body: "Locally owned and operated, with special pricing, premium upgrades and a team that stands behind every home.",
-  },
+/** The four promises from the old home page and Specials page, in the dealership's own words. */
+const perks = [
+  { n: "01", title: "Current deals", body: "Special pricing without compromising on craftsmanship, with a clearance home every month." },
+  { n: "02", title: "Unbeatable selection", body: "Singlewides, doublewides and triplewides across six Live Oak series and over 100 floor plans." },
+  { n: "03", title: "Reduced prices", body: "Live Oak buys materials in bulk and builds efficiently in the factory, and we pass the savings to you." },
+  { n: "04", title: "Quality construction", body: "Built to meet and exceed the federal HUD code, third-party inspected, with Energy Star options." },
 ];
 
+/** Dark band right under the hero: the dealership's four promises next to a daytime exterior. */
 export default function Features() {
   return (
-    <>
-      <section className="bg-band py-14">
-        <Reveal as="p" className="text-center text-xs tracking-wide text-muted">
-          Proudly featuring
-        </Reveal>
-        <Reveal delay={120} className="mx-auto mt-4 flex max-w-3xl flex-wrap justify-center gap-x-10 gap-y-3 px-4">
-          {brands.map((b) => (
-            <span key={b} className="display text-xl text-ink/40">
-              {b}
-            </span>
-          ))}
-        </Reveal>
-      </section>
-
-      <section id="homes" className="scroll-mt-24 px-4 pt-28 pb-24 sm:px-6">
-        <div className="mx-auto max-w-[1200px] text-center">
-          <Reveal as="h2" className="display text-[clamp(2.6rem,5.5vw,4rem)]">
-            A home you can grow into
+    <section className="relative bg-steel px-4 py-24 text-white sm:px-6">
+      <div className="mx-auto grid max-w-[1300px] items-center gap-14 lg:grid-cols-[1fr_1.15fr]">
+        <div>
+          <Reveal as="p" className="kicker !text-gold">
+            Why Wayne Frier Albany
           </Reveal>
-          <Reveal as="p" delay={120} className="mt-4 text-lg text-muted">
-            Best prices. Guaranteed.
+          <Reveal as="h2" delay={80} className="display mt-4 text-[clamp(2.4rem,5vw,3.8rem)]">
+            Best prices.
+            <br />
+            <span className="text-clay">Guaranteed.</span>
+          </Reveal>
+          <Reveal as="p" delay={160} className="mt-5 max-w-lg text-lg leading-relaxed text-white/75">
+            From Wayne Frier Homes of Albany, you can enjoy special pricing without compromising on craftsmanship.
+          </Reveal>
+          <Reveal variant="reveal-window" delay={200} className="relative mt-10 aspect-[3/2] overflow-hidden rounded-lg">
+            <Image
+              src="/site/georgia-giant.jpg"
+              alt="A dark-sided Live Oak home with cedar shutters, a front porch and an American flag"
+              fill
+              sizes="(min-width: 1024px) 560px, 100vw"
+              className="object-cover"
+            />
           </Reveal>
         </div>
-
-        <div className="mx-auto mt-16 grid max-w-[1200px] gap-8 md:grid-cols-3">
-          {features.map((f, i) => (
-            <Reveal key={f.title} delay={200 + i * 140}>
-              <article className="h-full rounded-[28px] border border-line bg-card p-8 text-left transition-all duration-500 ease-out hover:-translate-y-1.5 hover:bg-[#f9f5ef] hover:shadow-[0_24px_50px_-24px_rgba(20,20,20,0.35)]">
-                <span className="grid h-12 w-12 place-items-center rounded-2xl bg-blush text-clay">
-                  <f.icon className="h-6 w-6" />
-                </span>
-                <h3 className="display mt-7 text-[26px]">{f.title}</h3>
-                <p className="mt-4 leading-relaxed text-muted">{f.body}</p>
-              </article>
+        <div className="grid gap-px overflow-hidden rounded-lg bg-white/10 sm:grid-cols-2">
+          {perks.map((p, i) => (
+            <Reveal key={p.title} delay={120 + i * 100} className="h-full bg-steel-2 p-8">
+              <p className="display text-5xl text-clay">{p.n}</p>
+              <h3 className="display mt-4 text-2xl">{p.title}</h3>
+              <p className="mt-3 leading-relaxed text-white/70">{p.body}</p>
             </Reveal>
           ))}
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }

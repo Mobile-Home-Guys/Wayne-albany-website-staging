@@ -46,9 +46,10 @@ export const businessSchema = {
         closes: h.closes,
       })),
       areaServed: [
-        { "@type": "City", name: "Albany" },
-        { "@type": "AdministrativeArea", name: "Georgia" },
+        ...site.serviceArea.map((name) => ({ "@type": "City", name: `${name}, GA` })),
+        { "@type": "AdministrativeArea", name: "Southwest Georgia" },
       ],
+      slogan: site.tagline,
       sameAs: [site.facebook, site.instagram],
     },
     {

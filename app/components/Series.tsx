@@ -33,10 +33,13 @@ const series = [
 /** Home-page section describing the six home series. */
 export default function Series() {
   return (
-    <section id="series" className="scroll-mt-24 bg-band px-4 pt-28 pb-28 sm:px-6">
-      <div className="mx-auto flex max-w-[1200px] flex-col items-center justify-between gap-6 text-center md:flex-row md:items-end md:text-left">
+    <section id="series" className="scroll-mt-28 px-4 py-28 sm:px-6">
+      <div className="mx-auto flex max-w-[1300px] flex-col justify-between gap-6 md:flex-row md:items-end">
         <div>
-          <Reveal as="h2" className="display text-[clamp(2.6rem,5.5vw,4rem)]">
+          <Reveal as="p" className="kicker">
+            Built by Live Oak Homes
+          </Reveal>
+          <Reveal as="h2" delay={80} className="display mt-4 text-[clamp(2.4rem,5vw,3.8rem)]">
             Six home series to choose from
           </Reveal>
           <Reveal as="p" delay={120} className="mt-4 max-w-xl text-lg text-muted">
@@ -47,7 +50,7 @@ export default function Series() {
         <Reveal delay={200}>
           <Link
             href="/homes"
-            className="group inline-flex items-center gap-2 rounded-full border border-clay/30 bg-cream px-6 py-3 text-[15px] font-medium text-clay transition-colors hover:bg-clay hover:text-white"
+            className="group inline-flex items-center gap-2 rounded-md border-2 border-ink bg-transparent px-6 py-3 text-[15px] font-medium text-clay transition-colors hover:bg-clay hover:text-white"
           >
             Browse all homes
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -55,10 +58,13 @@ export default function Series() {
         </Reveal>
       </div>
 
-      <div className="mx-auto mt-14 grid max-w-[1200px] gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto mt-14 grid max-w-[1300px] gap-px overflow-hidden rounded-lg border border-line bg-line md:grid-cols-2 lg:grid-cols-3">
         {series.map((s, i) => (
-          <Reveal key={s.name} delay={(i % 3) * 100} className="rounded-3xl border border-line bg-cream p-8">
-            <h3 className="display text-[26px]">{s.name}</h3>
+          <Reveal key={s.name} delay={(i % 3) * 100} className="group h-full bg-card p-8 transition-colors hover:bg-cream">
+            <div className="flex items-baseline justify-between gap-4">
+              <h3 className="display text-[26px]">{s.name}</h3>
+              <span className="display text-3xl text-line transition-colors group-hover:text-clay">0{i + 1}</span>
+            </div>
             <p className="mt-3 leading-relaxed text-muted">{s.body}</p>
           </Reveal>
         ))}

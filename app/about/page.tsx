@@ -58,7 +58,7 @@ export default function AboutPage() {
       <Nav />
       <main>
         <section id="top" className="bg-band px-4 pt-40 pb-16 text-center sm:px-6">
-          <p className="text-sm font-medium tracking-wide text-clay uppercase">About us</p>
+          <p className="kicker">About us</p>
           <h1 className="display hero-in mt-4 text-[clamp(3rem,7vw,5.5rem)]">Best prices. Guaranteed.</h1>
           <p className="hero-in mx-auto mt-5 max-w-xl text-lg text-muted [animation-delay:150ms]">
             Unbeatable selection, reduced prices, premium upgrades and quality construction, from a locally owned dealership in Albany, Georgia.
@@ -67,7 +67,7 @@ export default function AboutPage() {
 
         <section className="px-4 py-24 sm:px-6">
           <div className="mx-auto grid max-w-[1200px] items-center gap-14 lg:grid-cols-2">
-            <Reveal variant="reveal-window" className="relative aspect-[4/3] overflow-hidden rounded-[28px]">
+            <Reveal variant="reveal-window" className="relative aspect-[4/3] overflow-hidden rounded-lg">
               <Image
                 src="/homes/buckhead/0.jpg"
                 alt="Inside a Live Oak home at Wayne Frier Home Center of Albany"
@@ -101,7 +101,7 @@ export default function AboutPage() {
 
           <Reveal as="dl" delay={150} className="mx-auto mt-20 grid max-w-[1200px] gap-5 sm:grid-cols-3">
             {stats.map((s) => (
-              <div key={s.label} className="rounded-3xl border border-line bg-card px-6 py-8 text-center">
+              <div key={s.label} className="rounded-lg border border-line bg-card px-6 py-8 text-center">
                 <dt className="sr-only">{s.label}</dt>
                 <dd className="display text-5xl text-clay">{s.value}</dd>
                 <dd className="mt-2 text-sm text-muted">{s.label}</dd>
@@ -117,7 +117,7 @@ export default function AboutPage() {
             </Reveal>
             <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {services.map((s, i) => (
-                <Reveal key={s.title} delay={i * 90} className="rounded-3xl border border-line bg-cream p-7">
+                <Reveal key={s.title} delay={i * 90} className="rounded-lg border border-line bg-cream p-7">
                   <span className="grid h-12 w-12 place-items-center rounded-full bg-blush text-clay">
                     <s.icon className="h-5 w-5" />
                   </span>

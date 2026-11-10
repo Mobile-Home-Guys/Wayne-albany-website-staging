@@ -1,21 +1,23 @@
 @import "tailwindcss";
 
-/* Red, black and white palette pulled from the Wayne Frier Home Center logo.
-   `clay` is the primary brand accent (logo red), `blush` its light tint. */
+/* Wayne Frier Home Center of Albany: charcoal and WF red straight from the logo, on a cool off-white.
+   Token names are kept from the original theme (`clay` = brand red, `blush` = its tint) so every page picks it up. */
 @theme {
-  --color-cream: #faf8f5;
-  --color-band: #f1ede7;
-  --color-card: #f6f2ec;
-  --color-line: #e4ded5;
-  --color-ink: #141414;
-  --color-muted: #4a4a4a;
-  --color-clay: #c01f26;
-  --color-clay-dark: #9a1a1f;
-  --color-blush: #f8e1e2;
-  --color-sage: #c01f26;
-  --color-gold: #d4a94a;
-  --font-serif: var(--font-instrument-serif);
-  --font-sans: var(--font-inter);
+  --color-cream: #f5f4f1;
+  --color-band: #e9e8e4;
+  --color-card: #ffffff;
+  --color-line: #d9d7d1;
+  --color-ink: #1e2023;
+  --color-muted: #50545b;
+  --color-clay: #c8102e;
+  --color-clay-dark: #a00d25;
+  --color-blush: #fbe4e7;
+  --color-sage: #c8102e;
+  --color-gold: #f2b544;
+  --color-steel: #26292d;
+  --color-steel-2: #31353a;
+  --font-display: var(--font-oswald);
+  --font-sans: var(--font-barlow);
 }
 
 :root {
@@ -29,14 +31,36 @@ html {
 body {
   background: var(--color-cream);
   color: var(--color-ink);
-  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
+  font-size: 17px;
 }
 
-/* Serif display headings, tightly tracked like the reference */
+/* Condensed, uppercase display type that echoes the "HOME CENTER" lettering in the logo */
 .display {
-  font-family: var(--font-instrument-serif), Georgia, serif;
-  letter-spacing: -0.02em;
-  line-height: 1.02;
+  font-family: var(--font-oswald), "Arial Narrow", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  line-height: 1.04;
+}
+
+/* Small red-ruled label above section headings */
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-oswald), "Arial Narrow", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-clay);
+}
+.kicker::before {
+  content: "";
+  width: 28px;
+  height: 3px;
+  background: currentColor;
 }
 
 /* ---------- Scroll reveal ---------- */
