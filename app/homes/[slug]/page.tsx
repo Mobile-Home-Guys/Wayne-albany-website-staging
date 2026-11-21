@@ -12,6 +12,7 @@ import { isOnLot } from "../../lib/lot";
 import Image from "next/image";
 import { pageMetadata } from "../../lib/seo";
 import { site, usd } from "../../lib/site";
+import { designableRooms } from "../../lib/customizer/designable.generated";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -109,6 +110,20 @@ export default async function HomePage({ params }: Props) {
                     Get prequalified
                   </a>
                 </div>
+                {designableRooms[home.slug] && (
+                  <Link
+                    href={`/homes/${home.slug}/customize`}
+                    className="group mt-4 flex items-center justify-between gap-4 rounded-2xl border border-line bg-card p-4 transition-colors hover:border-clay"
+                  >
+                    <span>
+                      <span className="display block text-xl">Design your {home.name}</span>
+                      <span className="mt-1 block text-sm text-muted">
+                        Pick Live Oak&rsquo;s colors on real photos of this home, then send us your build.
+                      </span>
+                    </span>
+                    <ArrowRight className="h-5 w-5 shrink-0 text-clay transition-transform group-hover:translate-x-1" />
+                  </Link>
+                )}
               </div>
             </div>
           </div>

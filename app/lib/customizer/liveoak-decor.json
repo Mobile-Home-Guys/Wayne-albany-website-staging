@@ -1,0 +1,700 @@
+{
+ "_about": "Live Oak Homes decor selection boards by series, from Jay Harvard (Wayne Frier Waycross) Gmail reply 2026-11-20 4:56 PM in thread \"Current Inventory\". Swatches cropped from the boards; color = swatch median. Benjamin (Nov 21): Westgate and Waycross get homes from the same plant, so one data set serves both. No prices anywhere.",
+ "rules": {
+  "xt-extreme": "Use on XT and Extreme homes. Items marked xtOnly are offered on XT homes only.",
+  "oak": "Use on Oak series homes.",
+  "none": "SV (Suwannee Valley) and Super Star (Runner SS): no or very limited changes per Jay, so no decor choices."
+ },
+ "boards": {
+  "xt-extreme": {
+   "cabinets": [
+    {
+     "id": "grizzly-oak",
+     "label": "Grizzly Oak",
+     "product": "Cabinets",
+     "swatch": "swatches/grizzly-oak.webp",
+     "color": "#A6794C"
+    },
+    {
+     "id": "lilly-white",
+     "label": "Lilly White",
+     "product": "Painted cabinets",
+     "swatch": "swatches/lilly-white.webp",
+     "color": "#F6E9DE"
+    },
+    {
+     "id": "olive",
+     "label": "Olive",
+     "product": "Painted cabinets",
+     "swatch": "swatches/olive.webp",
+     "color": "#818C64"
+    }
+   ],
+   "counters": [
+    {
+     "id": "lissolla-shadow",
+     "label": "Lissolla Shadow",
+     "product": "Countertop",
+     "swatch": "swatches/lissolla-shadow.webp",
+     "color": "#31302F"
+    },
+    {
+     "id": "calcutta-marble",
+     "label": "Calcutta Marble",
+     "product": "Countertop",
+     "swatch": "swatches/calcutta-marble.webp",
+     "color": "#F5EFE8"
+    }
+   ],
+   "island": [
+    {
+     "id": "limed-pine",
+     "label": "Limed Pine",
+     "product": "Island top",
+     "swatch": "swatches/limed-pine.webp",
+     "color": "#E3D7CC",
+     "tag": "Island only"
+    },
+    {
+     "id": "cognac-pine",
+     "label": "Cognac Pine",
+     "product": "Island top",
+     "swatch": "swatches/cognac-pine.webp",
+     "color": "#9F4F19",
+     "tag": "Island only"
+    },
+    {
+     "id": "lissolla-shadow",
+     "label": "Lissolla Shadow",
+     "product": "Countertop",
+     "swatch": "swatches/lissolla-shadow.webp",
+     "color": "#31302F"
+    },
+    {
+     "id": "calcutta-marble",
+     "label": "Calcutta Marble",
+     "product": "Countertop",
+     "swatch": "swatches/calcutta-marble.webp",
+     "color": "#F5EFE8"
+    }
+   ],
+   "flooring": [
+    {
+     "id": "havana-oak",
+     "label": "Havannah Oak",
+     "product": "Wood-look floor",
+     "swatch": "swatches/havana-oak.webp",
+     "color": "#CCC9C6",
+     "tag": "Standard"
+    },
+    {
+     "id": "scrub-hickory",
+     "label": "Scrub Hickory",
+     "product": "Wood-look floor",
+     "swatch": "swatches/scrub-hickory.webp",
+     "color": "#AFA783",
+     "tag": "Standard"
+    },
+    {
+     "id": "sandbar",
+     "label": "Sandbar",
+     "product": "Wood-look floor",
+     "swatch": "swatches/sandbar.webp",
+     "color": "#AB8C68",
+     "tag": "Upgrade"
+    },
+    {
+     "id": "linen-oak",
+     "label": "Linen Oak",
+     "product": "Wood-look floor",
+     "swatch": "swatches/linen-oak.webp",
+     "color": "#DEC4A6",
+     "tag": "Upgrade"
+    }
+   ],
+   "carpet": [
+    {
+     "id": "carpet-mirage",
+     "label": "Mirage",
+     "product": "Carpet",
+     "swatch": "swatches/carpet-mirage.webp",
+     "color": "#404140",
+     "tag": "Standard"
+    },
+    {
+     "id": "carpet-haze",
+     "label": "Haze",
+     "product": "Carpet",
+     "swatch": "swatches/carpet-haze.webp",
+     "color": "#7E7567",
+     "tag": "Premium upgrade"
+    },
+    {
+     "id": "carpet-harrington",
+     "label": "Harrington",
+     "product": "Carpet",
+     "swatch": "swatches/carpet-harrington.webp",
+     "color": "#A18C75",
+     "tag": "Luxury upgrade"
+    }
+   ],
+   "siding": [
+    {
+     "id": "country-beige",
+     "label": "Country Beige",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/country-beige.webp",
+     "color": "#E3D1B8",
+     "tag": "Standard"
+    },
+    {
+     "id": "greystone",
+     "label": "Greystone",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/greystone.webp",
+     "color": "#898884",
+     "tag": "Standard"
+    },
+    {
+     "id": "siding-white",
+     "label": "White",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/siding-white.webp",
+     "color": "#F7F7F7",
+     "tag": "Standard"
+    },
+    {
+     "id": "almost-midnight",
+     "label": "Almost Midnight",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/almost-midnight.webp",
+     "color": "#363638",
+     "tag": "Upgraded"
+    },
+    {
+     "id": "slate",
+     "label": "Slate",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/slate.webp",
+     "color": "#454E54",
+     "tag": "Upgraded"
+    },
+    {
+     "id": "spruce",
+     "label": "Spruce",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/spruce.webp",
+     "color": "#576149",
+     "tag": "Upgraded"
+    }
+   ],
+   "boardAndBatten": [
+    {
+     "id": "bb-white",
+     "label": "White",
+     "product": "Board & batten siding",
+     "swatch": "swatches/bb-white.webp",
+     "color": "#ECECEC",
+     "tag": "XT only",
+     "xtOnly": true
+    },
+    {
+     "id": "bb-almost-midnight",
+     "label": "Almost Midnight",
+     "product": "Board & batten siding",
+     "swatch": "swatches/bb-almost-midnight.webp",
+     "color": "#353535",
+     "tag": "XT only",
+     "xtOnly": true
+    },
+    {
+     "id": "bb-light-gray",
+     "label": "Light Gray",
+     "product": "Board & batten siding",
+     "swatch": "swatches/bb-light-gray.webp",
+     "color": "#BCBCBC",
+     "tag": "XT only",
+     "xtOnly": true
+    }
+   ],
+   "shiplap": [
+    {
+     "id": "heritage-pine",
+     "label": "Heritage Pine",
+     "product": "Shiplap",
+     "swatch": "swatches/heritage-pine.webp",
+     "color": "#B17330"
+    },
+    {
+     "id": "sand-flower",
+     "label": "Sand Flower",
+     "product": "Shiplap",
+     "swatch": "swatches/sand-flower.webp",
+     "color": "#D7D1CC"
+    }
+   ],
+   "backsplash": [
+    {
+     "id": "chicago-brick",
+     "label": "Chicago Brick",
+     "product": "Backsplash tile",
+     "swatch": "swatches/chicago-brick.webp",
+     "color": "#9A907F"
+    },
+    {
+     "id": "grunge-iron",
+     "label": "Grunge Iron",
+     "product": "Backsplash tile",
+     "swatch": "swatches/grunge-iron.webp",
+     "color": "#E7D8C7"
+    },
+    {
+     "id": "muschio",
+     "label": "Muschio",
+     "product": "Backsplash tile",
+     "swatch": "swatches/muschio.webp",
+     "color": "#938977"
+    }
+   ],
+   "ceramicTile": [
+    {
+     "id": "honey-oak",
+     "label": "Honey Oak",
+     "product": "Ceramic tile",
+     "swatch": "swatches/honey-oak.webp",
+     "color": "#92714B"
+    },
+    {
+     "id": "twilight",
+     "label": "Twilight",
+     "product": "Ceramic tile",
+     "swatch": "swatches/twilight.webp",
+     "color": "#2C2C2A"
+    },
+    {
+     "id": "white-marble",
+     "label": "White Marble",
+     "product": "Ceramic tile",
+     "swatch": "swatches/white-marble.webp",
+     "color": "#E6E9EB"
+    }
+   ],
+   "shutters": [
+    {
+     "id": "shutter-black",
+     "label": "Black",
+     "product": "Shutters",
+     "swatch": "swatches/shutter-black.webp",
+     "color": "#1D1E19"
+    },
+    {
+     "id": "shutter-white",
+     "label": "White",
+     "product": "Shutters",
+     "swatch": "swatches/shutter-white.webp",
+     "color": "#F5F5F5"
+    },
+    {
+     "id": "shutter-wooden",
+     "label": "Wooden",
+     "product": "Wood shutters",
+     "swatch": "swatches/shutter-wooden.webp",
+     "color": "#853916",
+     "tag": "XT only",
+     "xtOnly": true
+    }
+   ],
+   "paint": [
+    {
+     "id": "paint-pure-white",
+     "label": "Pure White",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-pure-white.webp",
+     "color": "#EFEBE0"
+    },
+    {
+     "id": "paint-accessible-beige",
+     "label": "Accessible Beige",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-accessible-beige.webp",
+     "color": "#EFDEC4"
+    },
+    {
+     "id": "paint-repose-gray",
+     "label": "Repose Gray",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-repose-gray.webp",
+     "color": "#CBCBC6"
+    },
+    {
+     "id": "paint-woven-wicker",
+     "label": "Woven Wicker",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-woven-wicker.webp",
+     "color": "#DDC8AB"
+    },
+    {
+     "id": "paint-functional-gray",
+     "label": "Functional Gray",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-functional-gray.webp",
+     "color": "#B4A797"
+    },
+    {
+     "id": "paint-evergreen-fog",
+     "label": "Evergreen Fog",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-evergreen-fog.webp",
+     "color": "#8F987B"
+    },
+    {
+     "id": "paint-software",
+     "label": "Software",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-software.webp",
+     "color": "#839796"
+    },
+    {
+     "id": "paint-urbane-bronze",
+     "label": "Urbane Bronze",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-urbane-bronze.webp",
+     "color": "#685C4B"
+    },
+    {
+     "id": "paint-granite-peak",
+     "label": "Granite Peak",
+     "product": "Interior paint",
+     "swatch": "swatches/paint-granite-peak.webp",
+     "color": "#496267"
+    }
+   ]
+  },
+  "oak": {
+   "cabinets": [
+    {
+     "id": "grizzly-oak",
+     "label": "Grizzly Oak",
+     "product": "Cabinets",
+     "swatch": "swatches/grizzly-oak.webp",
+     "color": "#A6794C"
+    },
+    {
+     "id": "lilly-white",
+     "label": "Lilly White",
+     "product": "Painted cabinets",
+     "swatch": "swatches/lilly-white.webp",
+     "color": "#F6E9DE"
+    },
+    {
+     "id": "olive",
+     "label": "Olive",
+     "product": "Painted cabinets",
+     "swatch": "swatches/olive.webp",
+     "color": "#818C64"
+    }
+   ],
+   "counters": [
+    {
+     "id": "lissolla-shadow",
+     "label": "Lissolla Shadow",
+     "product": "Countertop",
+     "swatch": "swatches/lissolla-shadow.webp",
+     "color": "#31302F"
+    },
+    {
+     "id": "calcutta-marble",
+     "label": "Calcutta Marble",
+     "product": "Countertop",
+     "swatch": "swatches/calcutta-marble.webp",
+     "color": "#F5EFE8"
+    }
+   ],
+   "island": [
+    {
+     "id": "limed-pine",
+     "label": "Limed Pine",
+     "product": "Island top",
+     "swatch": "swatches/limed-pine.webp",
+     "color": "#E3D7CC",
+     "tag": "Island only"
+    },
+    {
+     "id": "cognac-pine",
+     "label": "Cognac Pine",
+     "product": "Island top",
+     "swatch": "swatches/cognac-pine.webp",
+     "color": "#9F4F19",
+     "tag": "Island only"
+    },
+    {
+     "id": "lissolla-shadow",
+     "label": "Lissolla Shadow",
+     "product": "Countertop",
+     "swatch": "swatches/lissolla-shadow.webp",
+     "color": "#31302F"
+    },
+    {
+     "id": "calcutta-marble",
+     "label": "Calcutta Marble",
+     "product": "Countertop",
+     "swatch": "swatches/calcutta-marble.webp",
+     "color": "#F5EFE8"
+    }
+   ],
+   "flooring": [
+    {
+     "id": "havana-oak",
+     "label": "Havannah Oak",
+     "product": "Wood-look floor",
+     "swatch": "swatches/havana-oak.webp",
+     "color": "#CCC9C6",
+     "tag": "Standard"
+    },
+    {
+     "id": "scrub-hickory",
+     "label": "Scrub Hickory",
+     "product": "Wood-look floor",
+     "swatch": "swatches/scrub-hickory.webp",
+     "color": "#AFA783",
+     "tag": "Standard"
+    },
+    {
+     "id": "sandbar",
+     "label": "Sandbar",
+     "product": "Wood-look floor",
+     "swatch": "swatches/sandbar.webp",
+     "color": "#AB8C68",
+     "tag": "Upgrade"
+    },
+    {
+     "id": "linen-oak",
+     "label": "Linen Oak",
+     "product": "Wood-look floor",
+     "swatch": "swatches/linen-oak.webp",
+     "color": "#DEC4A6",
+     "tag": "Upgrade"
+    }
+   ],
+   "carpet": [
+    {
+     "id": "carpet-mirage",
+     "label": "Mirage",
+     "product": "Carpet",
+     "swatch": "swatches/carpet-mirage.webp",
+     "color": "#404140",
+     "tag": "Standard"
+    },
+    {
+     "id": "carpet-haze",
+     "label": "Haze",
+     "product": "Carpet",
+     "swatch": "swatches/carpet-haze.webp",
+     "color": "#7E7567",
+     "tag": "Premium upgrade"
+    },
+    {
+     "id": "carpet-harrington",
+     "label": "Harrington",
+     "product": "Carpet",
+     "swatch": "swatches/carpet-harrington.webp",
+     "color": "#A18C75",
+     "tag": "Luxury upgrade"
+    }
+   ],
+   "siding": [
+    {
+     "id": "country-beige",
+     "label": "Country Beige",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/country-beige.webp",
+     "color": "#E3D1B8",
+     "tag": "Standard"
+    },
+    {
+     "id": "greystone",
+     "label": "Greystone",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/greystone.webp",
+     "color": "#898884",
+     "tag": "Standard"
+    },
+    {
+     "id": "siding-white",
+     "label": "White",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/siding-white.webp",
+     "color": "#F7F7F7",
+     "tag": "Standard"
+    },
+    {
+     "id": "almost-midnight",
+     "label": "Almost Midnight",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/almost-midnight.webp",
+     "color": "#363638",
+     "tag": "Upgraded"
+    },
+    {
+     "id": "slate",
+     "label": "Slate",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/slate.webp",
+     "color": "#454E54",
+     "tag": "Upgraded"
+    },
+    {
+     "id": "spruce",
+     "label": "Spruce",
+     "product": "Vinyl lap siding",
+     "swatch": "swatches/spruce.webp",
+     "color": "#576149",
+     "tag": "Upgraded"
+    }
+   ],
+   "boardAndBatten": [
+    {
+     "id": "bb-white",
+     "label": "White",
+     "product": "Board & batten siding",
+     "swatch": "swatches/bb-white.webp",
+     "color": "#ECECEC"
+    },
+    {
+     "id": "bb-almost-midnight",
+     "label": "Almost Midnight",
+     "product": "Board & batten siding",
+     "swatch": "swatches/bb-almost-midnight.webp",
+     "color": "#353535"
+    },
+    {
+     "id": "bb-light-gray",
+     "label": "Light Gray",
+     "product": "Board & batten siding",
+     "swatch": "swatches/bb-light-gray.webp",
+     "color": "#BCBCBC"
+    }
+   ],
+   "shiplap": [
+    {
+     "id": "heritage-pine",
+     "label": "Heritage Pine",
+     "product": "Shiplap",
+     "swatch": "swatches/heritage-pine.webp",
+     "color": "#B17330"
+    },
+    {
+     "id": "sand-flower",
+     "label": "Sand Flower",
+     "product": "Shiplap",
+     "swatch": "swatches/sand-flower.webp",
+     "color": "#D7D1CC"
+    }
+   ],
+   "backsplash": [
+    {
+     "id": "chicago-brick",
+     "label": "Chicago Brick",
+     "product": "Backsplash tile",
+     "swatch": "swatches/chicago-brick.webp",
+     "color": "#9A907F"
+    },
+    {
+     "id": "grunge-iron",
+     "label": "Grunge Iron",
+     "product": "Backsplash tile",
+     "swatch": "swatches/grunge-iron.webp",
+     "color": "#E7D8C7"
+    },
+    {
+     "id": "muschio",
+     "label": "Muschio",
+     "product": "Backsplash tile",
+     "swatch": "swatches/muschio.webp",
+     "color": "#938977"
+    }
+   ],
+   "ceramicTile": [
+    {
+     "id": "honey-oak",
+     "label": "Honey Oak",
+     "product": "Ceramic tile",
+     "swatch": "swatches/honey-oak.webp",
+     "color": "#92714B"
+    },
+    {
+     "id": "twilight",
+     "label": "Twilight",
+     "product": "Ceramic tile",
+     "swatch": "swatches/twilight.webp",
+     "color": "#2C2C2A"
+    },
+    {
+     "id": "white-marble",
+     "label": "White Marble",
+     "product": "Ceramic tile",
+     "swatch": "swatches/white-marble.webp",
+     "color": "#E6E9EB"
+    }
+   ],
+   "shutters": [
+    {
+     "id": "shutter-black",
+     "label": "Black",
+     "product": "Shutters",
+     "swatch": "swatches/shutter-black.webp",
+     "color": "#1D1E19"
+    },
+    {
+     "id": "shutter-white",
+     "label": "White",
+     "product": "Shutters",
+     "swatch": "swatches/shutter-white.webp",
+     "color": "#F5F5F5"
+    },
+    {
+     "id": "shutter-wooden",
+     "label": "Wooden",
+     "product": "Wood shutters",
+     "swatch": "swatches/shutter-wooden.webp",
+     "color": "#853916",
+     "tag": "Plant 1 and 3"
+    }
+   ],
+   "wallPanels": [
+    {
+     "id": "caleb-bronze",
+     "label": "Caleb Bronze",
+     "product": "Wall panel",
+     "swatch": "swatches/caleb-bronze.webp",
+     "color": "#7D705F",
+     "tag": "Waycross plant"
+    },
+    {
+     "id": "lineage-fog",
+     "label": "Lineage Fog",
+     "product": "Wall panel",
+     "swatch": "swatches/lineage-fog.webp",
+     "color": "#A3A09B",
+     "tag": "Waycross plant"
+    },
+    {
+     "id": "nirvana-drift",
+     "label": "Nirvana Drift",
+     "product": "Wall panel",
+     "swatch": "swatches/nirvana-drift.webp",
+     "color": "#908D88",
+     "tag": "Waycross plant"
+    },
+    {
+     "id": "tangled-taupe",
+     "label": "Tangled Taupe",
+     "product": "Wall panel",
+     "swatch": "swatches/tangled-taupe.webp",
+     "color": "#9E9286",
+     "tag": "Waycross plant"
+    }
+   ]
+  }
+ }
+}

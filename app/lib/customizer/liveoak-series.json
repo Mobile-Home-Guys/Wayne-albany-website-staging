@@ -1,0 +1,117 @@
+{
+ "_about": "Each Albany Live Oak listing with a designer, its series (from Wayne Frier Waycross's Nov 2026 stock list where it names the model, else inferred from how the dealer files it) and the Live Oak decor board it takes. Copied from the shared Westgate/Waycross data; westgateSlug is the listing slug, the same on both sites.",
+ "models": [
+  {
+   "westgateSlug": "cedar-river",
+   "model": "Cedar River",
+   "westgateFiling": "Classic Oak Series",
+   "jaySeries": null,
+   "decorBoard": "oak",
+   "basis": "inferred: Jay lists Classic Oak homes (Ace, Horizon, Slugger) as Oak"
+  },
+  {
+   "westgateSlug": "charger",
+   "model": "Charger",
+   "westgateFiling": "Deluxe Drywall",
+   "jaySeries": "XT",
+   "decorBoard": "xt-extreme",
+   "basis": "Jay's stock list"
+  },
+  {
+   "westgateSlug": "cobblestone",
+   "model": "Cobblestone",
+   "westgateFiling": "Deluxe Drywall",
+   "jaySeries": "XT",
+   "decorBoard": "xt-extreme",
+   "basis": "Jay's stock list"
+  },
+  {
+   "westgateSlug": "fancy",
+   "model": "Fancy",
+   "westgateFiling": "Classic Oak Series",
+   "jaySeries": null,
+   "decorBoard": "oak",
+   "basis": "inferred: Jay lists Classic Oak homes (Ace, Horizon, Slugger) as Oak"
+  },
+  {
+   "westgateSlug": "highlander",
+   "model": "Highlander",
+   "westgateFiling": "Painted Sheetrock",
+   "jaySeries": "XT",
+   "decorBoard": "xt-extreme",
+   "basis": "Jay's stock list"
+  },
+  {
+   "westgateSlug": "horizon",
+   "model": "Horizon",
+   "westgateFiling": "Classic Oak Series",
+   "jaySeries": "OAK",
+   "decorBoard": "oak",
+   "basis": "Jay's stock list"
+  },
+  {
+   "westgateSlug": "monster-mansion",
+   "model": "Monster Mansion",
+   "westgateFiling": "Signature Oak Series",
+   "jaySeries": null,
+   "decorBoard": "oak",
+   "basis": "inferred: Brunswick (filed Signature Oak) has a Live Oak sheet naming Classic Oak Series"
+  },
+  {
+   "westgateSlug": "predator",
+   "model": "Predator",
+   "westgateFiling": "Classic Oak Series",
+   "jaySeries": null,
+   "decorBoard": "oak",
+   "basis": "inferred: Jay lists Classic Oak homes (Ace, Horizon, Slugger) as Oak"
+  },
+  {
+   "westgateSlug": "quail-ridge",
+   "model": "Quail Ridge",
+   "westgateFiling": "Deluxe Drywall",
+   "jaySeries": "XT",
+   "decorBoard": "xt-extreme",
+   "basis": "Jay's stock list"
+  },
+  {
+   "westgateSlug": "raptor",
+   "model": "Raptor",
+   "westgateFiling": "Signature Oak Series",
+   "jaySeries": null,
+   "decorBoard": "oak",
+   "basis": "inferred: Brunswick (filed Signature Oak) has a Live Oak sheet naming Classic Oak Series"
+  },
+  {
+   "westgateSlug": "rocky-mountain",
+   "model": "Rocky Mountain",
+   "westgateFiling": "Deluxe Drywall",
+   "jaySeries": null,
+   "decorBoard": "xt-extreme",
+   "basis": "inferred: every Deluxe Drywall or Painted Sheetrock home on Jay's list is XT or Extreme"
+  },
+  {
+   "westgateSlug": "silverado",
+   "model": "Silverado",
+   "westgateFiling": "Deluxe Drywall",
+   "jaySeries": "EXTREME",
+   "decorBoard": "xt-extreme",
+   "basis": "Jay's stock list"
+  },
+  {
+   "westgateSlug": "slugger",
+   "model": "Slugger",
+   "westgateFiling": "Classic Oak Series",
+   "jaySeries": "OAK",
+   "decorBoard": "oak",
+   "basis": "Jay's stock list"
+  },
+  {
+   "westgateSlug": "tremor",
+   "model": "Tremor",
+   "westgateFiling": "Deluxe Drywall",
+   "jaySeries": "EXTREME",
+   "decorBoard": "xt-extreme",
+   "basis": "Jay's stock list"
+  }
+ ]
+}
