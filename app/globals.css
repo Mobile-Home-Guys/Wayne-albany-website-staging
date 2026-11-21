@@ -16,6 +16,16 @@
   --color-gold: #f2b544;
   --color-steel: #26292d;
   --color-steel-2: #31353a;
+  /* Home designer tokens (ported from the Westgate site), mapped onto this palette. */
+  --color-paper: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-2: #e9e8e4;
+  --color-line-strong: #a9a69f;
+  --color-ember: #c8102e;
+  --color-ember-soft: #fbe4e7;
+  --color-on-ember: #ffffff;
+  --color-moss: #2f7d4f;
+  --radius-button: 0.5rem;
   --font-display: var(--font-oswald);
   --font-sans: var(--font-barlow);
 }
