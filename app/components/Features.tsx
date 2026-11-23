@@ -19,9 +19,9 @@ export default function Features() {
             Why Wayne Frier Albany
           </Reveal>
           <Reveal as="h2" delay={80} className="display mt-4 text-[clamp(2.4rem,5vw,3.8rem)]">
-            Best prices.
+            Special pricing.
             <br />
-            <span className="text-clay">Guaranteed.</span>
+            <span className="text-clay">Real craftsmanship.</span>
           </Reveal>
           <Reveal as="p" delay={160} className="mt-5 max-w-lg text-lg leading-relaxed text-white/75">
             From Wayne Frier Homes of Albany, you can enjoy special pricing without compromising on craftsmanship.

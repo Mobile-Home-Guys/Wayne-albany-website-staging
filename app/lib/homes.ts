@@ -46,8 +46,11 @@ export const homes: Home[] = (raw as Omit<Home, "price">[]).map((h) => ({
   price: CLEARANCE_PRICES[h.slug],
 }));
 
-/** The dealership's "Phenomenal Five" Plantation Series showcase, as grouped on the old site. */
-export const PHENOMENAL_FIVE = ["arlington", "biltmore", "saddlebrook", "bradford"];
+/**
+ * The dealership's "Phenomenal Five" Plantation Series showcase, as grouped on the old site.
+ * The old list had only four; Blakely is the fifth Plantation Series home in homes.json.
+ */
+export const PHENOMENAL_FIVE = ["arlington", "biltmore", "saddlebrook", "bradford", "blakely"];
 
 /** Homes featured on the Specials page. */
 export const clearance = homes.filter((h) => h.price);
