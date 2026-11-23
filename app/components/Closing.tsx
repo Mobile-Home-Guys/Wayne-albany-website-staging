@@ -6,7 +6,8 @@ import { ArrowRight, Check, Logo, PhoneIcon } from "./Icons";
 import QuoteForm from "./QuoteForm";
 
 export function CallToAction() {
-  const trust = [site.tagline, "Live Oak Homes, built in Georgia", "Locally owned & operated"];
+  // "Best prices. Guaranteed." already runs in the bar above the header on every page, so it isn't repeated here.
+  const trust = ["Live Oak Homes, built in Georgia", "Locally owned & operated", "Set up across southwest Georgia"];
   return (
     <section id="contact" className="relative scroll-mt-24 overflow-hidden px-4 py-24 md:py-32">
       <Image src="/site/exterior-wide.jpg" alt="" fill sizes="100vw" className="object-cover" />
@@ -94,7 +95,7 @@ export function Footer() {
             <Logo className="h-10" />
           </span>
           <p className="mt-5 max-w-xs leading-relaxed">
-            Locally owned and operated. Selling Live Oak Homes to families across southwest Georgia. {site.tagline}
+            Locally owned and operated. Selling Live Oak Homes to families across southwest Georgia.
           </p>
           <div className="mt-5 flex gap-3">
             <a href={site.facebook} target="_blank" rel="noopener noreferrer" className="rounded-md border border-white/20 px-3 py-1.5 text-sm transition-colors hover:border-white hover:text-white">

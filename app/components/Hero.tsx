@@ -61,7 +61,7 @@ export default function Hero() {
         </h1>
         <p className="hero-in mt-6 max-w-xl text-lg leading-relaxed text-white/85 [animation-delay:200ms] sm:text-xl">
           Wayne Frier Home Center of Albany sells singlewide, doublewide and triplewide Live Oak Homes, built in
-          Georgia and set up across the southwest corner of the state. Best prices. Guaranteed.
+          Georgia and set up across the southwest corner of the state.
         </p>
         <div className="hero-in mt-9 flex flex-col gap-3 [animation-delay:300ms] sm:flex-row">
           <Link
